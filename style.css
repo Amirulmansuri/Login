@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'lato',sans-serif;
+}
+
+.outer-box{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left,#3ed8ff,#a8f5ff);
+    border: 2px solid black;
+}
+
+.login-box{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+h1{
+    margin-left: 48%;
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.username{
+    margin-left:42%;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.user{
+    font-size: 24px;
+    font-weight:400;
+}
+
+.usernameinp{
+    height: 25px;
+    margin-top: 1px;
+    width: 300px;
+    font-size: large;
+    font-weight: 20px;
+    border: 2px solid black;
+
+    
+}
+
+.password{
+    margin-left: 42%;
+    margin-top: 40px;
+}
+
+.pass{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.passwordinp{
+    height: 25px;
+    margin-top: 1px;
+    width: 300px;
+    font-size: large;
+    font-weight: 20px;
+    border: 2px solid black;
+
+    
+}
+
+.submit-btnn{
+    height: 35px;
+    width: 280px;
+    margin-left: 43%;
+    margin-top: 35px;
+    padding-left: 15px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+    text-align:center;
+    /* background-color: whitesmoke; */
+    background-color: #3498db;
+    border: 2px solid black;
+
+
+    color: white;
+
+}
+
+.submit-btnn:hover{
+    /* background-color: #a1dae9; */
+    background-color: #2773a5;
+    
+    width: 270px;
+    
+    position: relative;
+}
+
+.forgot{
+    margin-left: 42%;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.text{
+    margin-left: 42%;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+a{
+    /* text-decoration: none; */
+}
+
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right,#ffffff33, #ffffffff);
+    position: absolute;
+}
+
+.c1{
+    top: 100px;
+    left: 40px;
+}
+
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
